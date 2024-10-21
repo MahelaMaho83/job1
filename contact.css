@@ -1,0 +1,44 @@
+body{
+    margin: 0em;
+    padding: 0rem;
+}
+nav{
+    background-color: green;
+    color: white;
+    padding: 1rem;
+}
+
+.titre {
+    background-image: url("fleurs.jpg");
+    background-size: cover;
+}
+
+.titre h1 { /*Apparence du titre de l'accueil*/
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-left: 0%;
+    font-size: 75px;
+    margin-top: 0;
+    text-align: center;
+    color: rgb(60, 60, 150);
+}
+.titre p{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    padding: 1%;
+}
+#wid {
+    column-width: 100px;
+  }
+
+  #branche{display: flex;}
+#form {
+    float: right
+}
+footer{ 
+    background-color: green;
+    padding: 10px;
+}
